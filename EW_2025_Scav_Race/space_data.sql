@@ -2,52 +2,52 @@ USE SpaceStationInventory;
 
 -- Insert fake suppliers
 INSERT INTO Suppliers (name, secret_hint) VALUES 
-('Lunar Supply Co.', 'Check the item with the lowest stock'),
-('Martian Logistics', 'Look at modules that rely on out-of-stock items'),
-('Orbital Essentials', 'Life support items are the most crucial'),
-('Deep Space Resources', 'Fuel shipments are sporadic'),
-('Galactic Tech', 'Communication relays are a priority'),
-('AstroFood Inc.', 'Food shipments come every month'),
-('Nova Medical Supplies', 'Medical stock must always be available');
+('Lunar Supply Co.', 'Check the item with the lowest stock room'),
+('Martian Logistics', 'Look at modules that rely on out-of-stock room items'),
+('Orbital Essentials', 'Life supporoomt items are the most crucial'),
+('Deep Space Resources', 'Fuel room shipments are sporadic'),
+('Galactic Tech', 'Commroomunication relays are a priority'),
+('AstroFood Inc.', 'Food room shipments come every month'),
+('Nova Medical Supplies', 'Medical room stock must always be available');
 
 -- Insert fake inventory items
 INSERT INTO Inventory (name, stock, supplier_id) VALUES 
 ('Oxygen Tanks', 50, 3),
 ('Water Packs', 20, 3),
-('Dehydrated Meals', 5, 6),
-('Emergency Repair Kit', 0, 2),
+('Dehydrated MealsS', 5, 6),
+('Emergency Repair Kit', 0, 2),`
 ('Fuel Cells', 30, 4),
-('Solar Panels', 25, 5),
+('Solar PanelsT', 5, 5),
 ('Radiation Shields', 15, 2),
 ('Communication Relays', 40, 5),
 ('Medical Kits', 60, 7),
-('Microgravity Tools', 35, 1),
+('Microgravity ToolsU', 5, 1),
 ('Thruster Components', 12, 4),
 ('Space Suit Parts', 8, 2),
 ('Battery Packs', 25, 3),
 ('Thermal Insulation', 18, 5),
 ('Portable Power Generators', 10, 1),
-('Antimatter Containment Units', 2, 4),
+('Antimatter Containment UnitsD', 5, 4),
 ('Air Filters', 28, 3),
-('Nutrient Paste', 14, 6),
-('Hydroponic Seeds', 6, 6),
-('Plasma Cutters', 9, 2);
+('Nutrient PasteE', 5, 6),
+('Hydroponic SeedsN', 5, 6),
+('Plasma CuttersT', 5, 2);
 
 -- Insert fake modules
 INSERT INTO Modules (name, item_id) VALUES 
 ('Life Support', 1),
-('Storage Bay', 2),
+('StOrage Bay', 2),
 ('Crew Quarters', 3),
 ('Engineering Bay', 4),
 ('Propulsion System', 5),
 ('Solar Array', 6),
 ('Shielding Unit', 7),
-('Command Center', 8),
+('Command CenteR', 8),
 ('Medical Bay', 9),
 ('Maintenance Hub', 10),
 ('Fuel Storage', 11),
 ('Suit Repair Dock', 12),
-('Power Distribution', 13),
+('PoweGr Distribution', 13),
 ('Thermal Control', 14),
 ('Backup Power', 15),
 ('Research Lab', 16),
